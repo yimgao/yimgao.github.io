@@ -35,7 +35,7 @@ export const portfolioData: {
     ],
   },
   aboutMe:
-    "CS major with hands-on experience in backend development, AI integration, and data analytics. Skilled in Python, Java, and SQL, passionate about building scalable, modular applications.\n\nWhen I'm not coding, you'll find me hiking trails, experimenting in the kitchen, traveling to new places, or exploring the latest tech innovations. I believe great code and great adventures both require curiosity and persistence.",
+    "CS graduate with hands-on experience in backend development, AI integration, and data analytics. Skilled in Python, Java, and SQL, passionate about building scalable, modular applications.\n\nWhen I'm not coding, you'll find me hiking trails, experimenting in the kitchen, traveling to new places, or exploring the latest tech innovations. I believe great code and great adventures both require curiosity and persistence.",
   experience: [
     {
       title: "Data Analyst Intern",
@@ -76,7 +76,7 @@ export const portfolioData: {
     {
       title: "Bachelor of Computer Science",
       company: "City Tech - Computer System Technology",
-      date: "In Progress",
+      date: "Graduated Dec 2025",
       location: "New York",
       description:
         "Relevant coursework: Data Structures, Algorithms, Object-Oriented Programming, Project Management. Dean's List 2022-2025.",
