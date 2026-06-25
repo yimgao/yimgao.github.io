@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/phosphor-icons@1.4.2/src/css/phosphor.css" />
   <style>
     /* ═══════════════ RESET ═══════════════ */
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -293,6 +294,7 @@
       font-weight:500;
       color:var(--text-dim);
       margin-bottom:12px;
+      display:flex;align-items:center;gap:5px;
     }
     .skill-group h3 .num{
       color:var(--accent-dim);
@@ -307,9 +309,11 @@
       border-radius:20px;
       font-size:13px;
       font-weight:500;
+      display:inline-flex;align-items:center;gap:5px;
       transition:transform .15s var(--ease),box-shadow .15s var(--ease);
       cursor:default;
     }
+    .skill-group .list .pill i{font-size:14px}
     .skill-group .list .pill:hover{
       transform:translateY(-3px);
       box-shadow:0 6px 20px rgba(0,0,0,.2);
@@ -584,56 +588,56 @@
     </div>
     <div class="skill-wrap">
       <div class="skill-group">
-        <h3><span class="num">01</span>Languages</h3>
+        <h3><span class="num">01</span><i class="ph ph-code-block"></i> Languages</h3>
         <div class="list">
-          <span class="pill pill-lang">Java</span>
-          <span class="pill pill-lang">Python</span>
-          <span class="pill pill-lang">JavaScript</span>
-          <span class="pill pill-lang">TypeScript</span>
-          <span class="pill pill-lang">SQL</span>
-          <span class="pill pill-lang">C#</span>
-          <span class="pill pill-lang">Bash</span>
+          <span class="pill pill-lang"><i class="ph ph-code-block"></i>Java</span>
+          <span class="pill pill-lang"><i class="ph ph-code"></i>Python</span>
+          <span class="pill pill-lang"><i class="ph ph-file-js"></i>JavaScript</span>
+          <span class="pill pill-lang"><i class="ph ph-file-tsx"></i>TypeScript</span>
+          <span class="pill pill-lang"><i class="ph ph-database"></i>SQL</span>
+          <span class="pill pill-lang"><i class="ph ph-hash"></i>C#</span>
+          <span class="pill pill-lang"><i class="ph ph-terminal-window"></i>Bash</span>
         </div>
       </div>
       <div class="skill-group">
-        <h3><span class="num">02</span>Frameworks &amp; Libraries</h3>
+        <h3><span class="num">02</span><i class="ph ph-cube"></i> Frameworks &amp; Libraries</h3>
         <div class="list">
-          <span class="pill pill-fw">Spring Boot</span>
-          <span class="pill pill-fw">Flask</span>
-          <span class="pill pill-fw">Next.js</span>
-          <span class="pill pill-fw">React</span>
-          <span class="pill pill-fw">NumPy</span>
-          <span class="pill pill-fw">Pandas</span>
-          <span class="pill pill-fw">Matplotlib</span>
-          <span class="pill pill-fw">HDF5</span>
+          <span class="pill pill-fw"><i class="ph ph-leaf"></i>Spring Boot</span>
+          <span class="pill pill-fw"><i class="ph ph-flask"></i>Flask</span>
+          <span class="pill pill-fw"><i class="ph ph-lightning"></i>Next.js</span>
+          <span class="pill pill-fw"><i class="ph ph-atom"></i>React</span>
+          <span class="pill pill-fw"><i class="ph ph-chart-bar"></i>NumPy</span>
+          <span class="pill pill-fw"><i class="ph ph-table"></i>Pandas</span>
+          <span class="pill pill-fw"><i class="ph ph-chart-line-up"></i>Matplotlib</span>
+          <span class="pill pill-fw"><i class="ph ph-folder"></i>HDF5</span>
         </div>
       </div>
       <div class="skill-group">
-        <h3><span class="num">03</span>Tools</h3>
+        <h3><span class="num">03</span><i class="ph ph-wrench"></i> Tools</h3>
         <div class="list">
-          <span class="pill pill-tool">Git</span>
-          <span class="pill pill-tool">GitHub</span>
-          <span class="pill pill-tool">Agile Methodology</span>
-          <span class="pill pill-tool">API Integration</span>
-          <span class="pill pill-tool">Parallel/GPU Computing</span>
+          <span class="pill pill-tool"><i class="ph ph-git-branch"></i>Git</span>
+          <span class="pill pill-tool"><i class="ph ph-github-logo"></i>GitHub</span>
+          <span class="pill pill-tool"><i class="ph ph-squares-four"></i>Agile Methodology</span>
+          <span class="pill pill-tool"><i class="ph ph-plugs"></i>API Integration</span>
+          <span class="pill pill-tool"><i class="ph ph-cpu"></i>Parallel/GPU Computing</span>
         </div>
       </div>
       <div class="skill-group">
-        <h3><span class="num">04</span>AI</h3>
+        <h3><span class="num">04</span><i class="ph ph-robot"></i> AI</h3>
         <div class="list">
-          <span class="pill pill-ai">OpenAI API</span>
-          <span class="pill pill-ai">LangChain</span>
-          <span class="pill pill-ai">AutoGen</span>
+          <span class="pill pill-ai"><i class="ph ph-robot"></i>OpenAI API</span>
+          <span class="pill pill-ai"><i class="ph ph-link"></i>LangChain</span>
+          <span class="pill pill-ai"><i class="ph ph-cpu"></i>AutoGen</span>
         </div>
       </div>
       <div class="skill-group">
-        <h3><span class="num">05</span>Soft Skills</h3>
+        <h3><span class="num">05</span><i class="ph ph-handshake"></i> Soft Skills</h3>
         <div class="list">
-          <span class="pill pill-soft">Problem-solving &amp; Analytical Thinking</span>
-          <span class="pill pill-soft">Teamwork &amp; Collaboration</span>
-          <span class="pill pill-soft">Adaptability &amp; Quick Learning</span>
-          <span class="pill pill-soft">Leadership &amp; Facilitation</span>
-          <span class="pill pill-soft">Technical Communication</span>
+          <span class="pill pill-soft"><i class="ph ph-star"></i>Problem-solving &amp; Analytical Thinking</span>
+          <span class="pill pill-soft"><i class="ph ph-users-three"></i>Teamwork &amp; Collaboration</span>
+          <span class="pill pill-soft"><i class="ph ph-arrows-clockwise"></i>Adaptability &amp; Quick Learning</span>
+          <span class="pill pill-soft"><i class="ph ph-megaphone"></i>Leadership &amp; Facilitation</span>
+          <span class="pill pill-soft"><i class="ph ph-chat-dots"></i>Technical Communication</span>
         </div>
       </div>
     </div>
