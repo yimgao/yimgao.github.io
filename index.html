@@ -313,6 +313,12 @@
       cursor:default;
     }
     .skill-group .list .pill i{font-size:14px}
+    .skill-group .list .pill .prof{
+      font-size:11px;
+      letter-spacing:1px;
+      color:var(--accent);
+      opacity:.7;
+    }
     .skill-group .list .pill:hover{
       transform:translateY(-3px);
       box-shadow:0 6px 20px rgba(0,0,0,.2);
@@ -503,21 +509,21 @@
     </div>
     <div class="about-grid">
       <div class="about-text">
-        CS graduate with hands-on experience in <span class="hl">backend development</span>,
-        <span class="hl">AI integration</span>, and <span class="hl">data analytics</span>.
-        Skilled in Python, Java, and SQL — passionate about building scalable, modular applications
-        that actually solve real problems.
+        CS graduate with a knack for <span class="hl">finding problems and solving them</span>.
+        I build things using modern tools — agents, automation, full-stack frameworks, and
+        whatever gets the job done right. Experienced in backend engineering, AI integration,
+        and data analytics across Python, Java, and TypeScript.
         <br><br>
-        When I'm not coding, you'll find me hiking trails, experimenting in the kitchen,
-        traveling to new places, or diving into the latest tech rabbit holes.
+        When I'm not coding, you'll find me hiking, cooking, or diving into the latest
+        tech rabbit holes. I believe the best engineers are the ones who never stop exploring.
       </div>
       <div class="about-list">
         <h4>Currently into</h4>
         <div class="items">
           <span class="tag">AI Agents</span>
-          <span class="tag">LangChain</span>
-          <span class="tag">Next.js</span>
-          <span class="tag">System Design</span>
+          <span class="tag">Multi-Agent Systems</span>
+          <span class="tag">Agentic Workflows</span>
+          <span class="tag">Full-stack</span>
           <span class="tag">Automation</span>
         </div>
       </div>
@@ -589,13 +595,12 @@
       <div class="skill-group">
         <h3><span class="num">01</span><i class="ph ph-code-block"></i> Languages</h3>
         <div class="list">
-          <span class="pill pill-lang"><i class="ph ph-code-block"></i>Java</span>
-          <span class="pill pill-lang"><i class="ph ph-code"></i>Python</span>
-          <span class="pill pill-lang"><i class="ph ph-file-js"></i>JavaScript</span>
-          <span class="pill pill-lang"><i class="ph ph-file-tsx"></i>TypeScript</span>
-          <span class="pill pill-lang"><i class="ph ph-database"></i>SQL</span>
-          <span class="pill pill-lang"><i class="ph ph-hash"></i>C#</span>
-          <span class="pill pill-lang"><i class="ph ph-terminal-window"></i>Bash</span>
+          <span class="pill pill-lang"><i class="ph ph-code-block"></i>Java <span class="prof">●●●◐</span></span>
+          <span class="pill pill-lang"><i class="ph ph-code"></i>Python <span class="prof">●●●●</span></span>
+          <span class="pill pill-lang"><i class="ph ph-file-js"></i>JavaScript <span class="prof">●●●◐</span></span>
+          <span class="pill pill-lang"><i class="ph ph-file-tsx"></i>TypeScript <span class="prof">●●●●</span></span>
+          <span class="pill pill-lang"><i class="ph ph-database"></i>SQL <span class="prof">●●●○</span></span>
+          <span class="pill pill-lang"><i class="ph ph-terminal-window"></i>Bash <span class="prof">●●●○</span></span>
         </div>
       </div>
       <div class="skill-group">
@@ -607,12 +612,9 @@
           <span class="pill pill-fw"><i class="ph ph-lightning"></i>Next.js</span>
           <span class="pill pill-fw"><i class="ph ph-atom"></i>React</span>
           <span class="pill pill-fw"><i class="ph ph-lightning"></i>Vite</span>
-          <span class="pill pill-fw"><i class="ph ph-tailwind"></i>Tailwind CSS</span>
+          <span class="pill pill-fw"><i class="ph ph-palette"></i>Tailwind CSS</span>
           <span class="pill pill-fw"><i class="ph ph-database"></i>Prisma</span>
-          <span class="pill pill-fw"><i class="ph ph-chart-bar"></i>NumPy</span>
-          <span class="pill pill-fw"><i class="ph ph-table"></i>Pandas</span>
-          <span class="pill pill-fw"><i class="ph ph-chart-line-up"></i>Matplotlib</span>
-          <span class="pill pill-fw"><i class="ph ph-container"></i>Docker</span>
+          <span class="pill pill-fw"><i class="ph ph-cube"></i>Docker</span>
         </div>
       </div>
       <div class="skill-group">
@@ -620,11 +622,13 @@
         <div class="list">
           <span class="pill pill-tool"><i class="ph ph-git-branch"></i>Git</span>
           <span class="pill pill-tool"><i class="ph ph-github-logo"></i>GitHub</span>
-          <span class="pill pill-tool"><i class="ph ph-container"></i>Docker</span>
           <span class="pill pill-tool"><i class="ph ph-database"></i>PostgreSQL</span>
           <span class="pill pill-tool"><i class="ph ph-database"></i>Redis</span>
           <span class="pill pill-tool"><i class="ph ph-plugs"></i>API Integration</span>
           <span class="pill pill-tool"><i class="ph ph-squares-four"></i>Agile</span>
+          <span class="pill pill-tool"><i class="ph ph-terminal"></i>OpenCLI</span>
+          <span class="pill pill-tool"><i class="ph ph-code"></i>Claude Code</span>
+          <span class="pill pill-tool"><i class="ph ph-terminal-window"></i>Codex</span>
           <span class="pill pill-tool"><i class="ph ph-robot"></i>MCP</span>
           <span class="pill pill-tool"><i class="ph ph-clock"></i>Cron</span>
         </div>
@@ -633,10 +637,11 @@
         <h3><span class="num">04</span><i class="ph ph-robot"></i> AI</h3>
         <div class="list">
           <span class="pill pill-ai"><i class="ph ph-robot"></i>OpenAI API</span>
-          <span class="pill pill-ai"><i class="ph ph-graph"></i>LangGraph</span>
+          <span class="pill pill-ai"><i class="ph ph-share-network"></i>LangGraph</span>
           <span class="pill pill-ai"><i class="ph ph-link"></i>LangChain</span>
           <span class="pill pill-ai"><i class="ph ph-cpu"></i>AutoGen</span>
           <span class="pill pill-ai"><i class="ph ph-folder"></i>RAG</span>
+          <span class="pill pill-ai"><i class="ph ph-robot"></i>Hermes Agent</span>
         </div>
       </div>
       <div class="skill-group">
